@@ -3,6 +3,7 @@ import Navigation from './Components/Navigation/Navigation';
 import Logo from './Components/Logo/Logo';
 import './App.css';
 import Particles from 'react-particles-js';
+import Signup from './Components/SignUpForm/signUpForm'
 
 
 const particlesOptions = {
@@ -26,6 +27,7 @@ class App extends Component{
                   />
                   <Navigation />
                   <Logo />
+                  <Signup/>
               </div>
       
 
