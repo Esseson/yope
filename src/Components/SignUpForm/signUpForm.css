@@ -1,9 +1,13 @@
 .signup{
-    font-display: arial;
+    background-color: #D8F5FE;
+    width: 700px;
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
     position: relative;
+    border: 2px solid #333;
+    border-style: solid;
+    box-sizing: border-box;
     text-align: center;
-    display: inline;
-    background-color: antiquewhite;
-    justify-content:center;
 
 }
