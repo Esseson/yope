@@ -26,7 +26,28 @@ const signUpForm = () => {
 
                 <div class="mt3">
                     <label class="db fw4 lh-copy f10" for="password">Password*</label>
-                    <input class="b pa2 input-reset ba bg-transparent" type="password" name="password"  id="password"/>
+                    <input class="b pa2 input-reset ba bg-transparent left" type="password" name="password"  id="password"/>
+                </div>
+                    <br>
+                    </br>
+
+                    <div>
+                        <label class="db fw4 lh-copy f10" for="email-address">My Employment Status </label>
+                        <select class="pa2 input-reset ba bg-transparent w-100 measure" type="string" name="string">
+                                <option value="volvo">Full-Time</option>
+                                <option value="saab">Part-Time</option>
+                                <option value="fiat">Freelancer</option>
+                                <option value="audi">Unemployed</option>
+                        </select>
+                </div>
+                <div>
+                        <label class="db fw4 lh-copy f10" for="email-address">My Annual Salary </label>
+                        <select class="pa2 input-reset ba bg-transparent w-100 measure" type="string" name="string">
+                                <option value="volvo">$0-$20,000</option>
+                                <option value="saab">$21,000- $50,000</option>
+                                <option value="fiat">$51,000-$75,000</option>
+                                <option value="audi">$76,000-$100,000</option>
+                        </select>
                 </div>
 
                 </fieldset>
